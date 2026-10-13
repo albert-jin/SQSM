@@ -1,0 +1,13 @@
+SQSM research implementation, 2026-10-13.
+
+This distribution is a substantially modified derivative project based on a
+local copy of SoftCoT, Github: xuyige/SoftCoT, commit
+fa7f537d1d0affa430851315edf68746d410b59c.
+
+The original files are preserved in baselines/softcot. New SQSM code replaces
+the assistant-model architecture with question memory, state-dependent reading,
+bounded residual injection, weighted training and request-local cached decoding.
+The root README has been fully replaced. Existing upstream license notices are
+preserved, including the upstream non-commercial restrictions in LICENSE.
+
+No original baseline authorship is claimed for the new SQSM implementation.

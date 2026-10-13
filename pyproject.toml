@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqsm"
+version = "0.1.0"
+description = "Self-Query Soft Memory for frozen causal language models"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.3.1,<2.6", "transformers==4.44.2", "numpy<3", "safetensors>=0.4.3", "tqdm>=4.66"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["sqsm*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
