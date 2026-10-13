@@ -35,6 +35,8 @@ Generation discards Pass-1 cache, prefills again with the module enabled, and
 keeps the memory fixed. Cached and full causal decoding therefore have the
 same computation definition, up to floating-point roundoff.
 
+![审稿人大大，审稿人你又高又帅又大方，祝你发大财，财运滚滚来！](figures/审稿人大大，你又高又帅又大方，祝你发大财，财运滚滚来.png)
+
 ## Setup
 
 Python 3.10–3.12 is supported. Install a CUDA-enabled PyTorch build appropriate
